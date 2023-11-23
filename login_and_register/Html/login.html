@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCC site LOGIN</title>
+    <link rel="stylesheet" href="/baseCodes/Css/baseSocialAreaStyle.css">
+    <link rel="stylesheet" href="/baseCodes/Css/LoggedAccontStyles.css">
+    <link rel="stylesheet" href="/baseCodes/Css/notLoggedAccontStyles.css">
+
+    <link rel="stylesheet" href="/baseCodes/Css/WhiteThemePresents.css">
+    <link rel="stylesheet" href="/baseCodes/Css/presets.css">
+
+    <link rel="stylesheet" href="/login_and_register/Css/loginStyles.css">
+
+    <link rel="stylesheet" href="/baseCodes/Css/mediaQueries/BSASMQ.css">
+</head>
+<body>
+    <div id="root">
+        <header id="header_container">
+            <div id="start">
+                <div id="menu_area">
+                    <button id="menu_button">
+                        <div id="menu_hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                                https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 
+                                113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>    
+                        </div>
+                    </button>
+                </div>
+                <div id="logo_area">
+                    <a href="/baseCodes/Html/home.html" id="logo_text_link" class="link_style_none">
+                        <span id="logo_text">Nome do site</span>
+                    </a>
+                </div>
+            </div>
+            <div id="center">
+                <div id="search_container">
+                    <div id="search_icon_area">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - 
+                            https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 
+                            45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                    </div>
+                    <div id="search_box">
+                        <input type="search" id="search_area" placeholder="Pesquisar">
+                    </div>
+                </div>
+            </div>
+            <div id="end">
+                <div id="accont_buttons_container"></div>
+            </div>
+        </header>
+        <main id="main_container">
+            <div id="dashboard_container"></div>
+            <div id="center_main_container">
+                <form action="" id="login_container">
+                    <div id="login_box">
+                        <div id="login_text_area">
+                            <span id="login_text">Fazer Login</span>
+                        </div>
+                        <div id="login_inputs_area">
+                            <div id="login_email_input_area">
+                                <input type="email" name="login_email" id="login_input_email" placeholder="Email" required>
+                            </div>
+                            <div id="login_password_input_area">
+                                <input type="password" name="login_password" id="login_input_password" placeholder="Senha" required>
+                            </div>
+                        </div>
+                        <div id="login_button_submit_area">
+                            <input id="login_submit_button" type="submit" value="Entrar">
+                        </div>
+                        <div id="login_not_accont_create_area">
+                            <span id="login_not_accont_create_text">Você não tem uma conta?</span>
+                            <a id="login_create_accont_link" href="/login_and_register/Html/register.html">increver-se</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="/baseCodes/Js/menubtn.js"></script>
+    <script src="/login_and_register/Js/cookies.js"></script>
+    <script src="/baseCodes/Js/notLoggedScripts.js"></script>
+    <script src="/login_and_register/Js/loginScript.js"></script>
+</body>
+</html>
